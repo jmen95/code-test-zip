@@ -1,0 +1,15 @@
+.message{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    display:none;
+}
+.message.show{
+    display: block;
+}
+.message--success{
+    color:rgb(21, 167, 70);
+}
+.message--error{
+    color:rgb(167, 37, 37);
+}
