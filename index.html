@@ -8,7 +8,20 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	
+	<div class="container">
+
+		<h1 class="title">Zip Code Finder</h1>
+		<form action="" id="frmSearch" class="form-horizontal">
+			<label for="zipCode" class="form-horizontal__label sr-only">
+				Zip Code
+			</label>
+			<input type="number" maxlength="5" id="zipCode" name="zipCode" class="form-horizontal__input" placeholder="Zip Code" required />
+			<button type="submit" id="btnSend" class="form-horizontal__button">Search</button>
+		</form>
+		<div class="message"></div>
+		<main id="resultSearch">
+		</main>
+	</div>
 	<script src="script.js"></script>
 </body>
 </html>
