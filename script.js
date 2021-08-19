@@ -26,7 +26,12 @@ async function getDataZippopotomus(url) {
 }
 
 const $message = document.querySelector(".message");
-//Type 1= Success, 2= error
+
+/**
+ *
+ * @param {string} text
+ * @param {number} type Type 1= Success, 2= error
+ */
 function message(text, type = 1) {
   const messageType = type === 2 ? "error" : "success";
   $message.innerHTML = text;
